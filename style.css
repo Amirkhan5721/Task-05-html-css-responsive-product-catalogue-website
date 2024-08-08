@@ -144,3 +144,29 @@ h2 {
     position: relative;   
     bottom: 22px;
 }
+/*Smart Watches Section*/
+.smart-watches {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.watches {
+    width: 400px;
+    height: 30vh;
+    background-size: cover;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    background-color: #fafafa;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+.watches img {
+    width: 200px;
+    height: 30vh;
+}
+.watches p {
+    position: relative; 
+    top: -105px; 
+    left: 200px;
+    color: blueviolet;
+}
