@@ -123,3 +123,24 @@ h2 {
 .mobiles p:first-child {
     font-weight: bold;
 }
+/*Laptop Section Styled*/
+.laptops-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.laptop-images {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.laptop-images img {
+    width: 250px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.laptop-images p {
+    position: relative;   
+    bottom: 22px;
+}
