@@ -52,3 +52,44 @@ header {
     width: 20px;
     height: auto;
 }
+/*Navbar Section*/
+.navbar-section {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    /* border: 2px solid red; */
+}
+/*navbar-links styled*/
+.navbar-links {
+    width: 20%;
+    height: 40vh;
+    padding-top: 17px;
+    background-color: rgb(254, 250, 250);
+}
+.navbar-links h2 {
+    width: 70%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links a {
+    text-decoration: none;
+    line-height: 2;
+    margin:auto 43px;
+    color: black;
+}
+/*navbar-img styled*/
+.navbar-img {
+    width: 75%;
+    height: 40vh;
+}
+.navbar-img img {
+    width: 100%;
+    height: 40vh;
+}
