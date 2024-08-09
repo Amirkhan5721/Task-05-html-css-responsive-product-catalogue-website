@@ -1,1 +1,71 @@
-@media (max-width:1050px){}
+@media (max-width:1050px){
+        /*navbar-links styled*/
+.navbar-links {
+    width: 40%;
+    height: 40vh;
+}
+.navbar-links h2 {
+    width: 70%;
+}
+.navbar-links a {
+    margin:auto 63px;
+}
+/*navbar-img styled*/
+.navbar-img img {
+    width: 100%;
+    height: 40vh;
+}
+/*Smart Phones section styled*/
+h2 {
+    margin-top: 20px;
+}
+.smart-phone {
+    flex-wrap: wrap;
+}
+.smart-phone .mobiles {
+    width: 49%;
+}
+.smart-phone .mobiles img {
+    width: 40%;
+    height: 150px;
+}
+.mobiles span p {
+    font-size: large;
+}
+/*Laptop Responsive Laptop Section Styled*/
+.laptops-section {
+    flex-wrap: wrap;
+}
+.laptops-section .laptop-images {
+    width: 50%;
+}
+.laptop-images img {
+    width: 80%;
+}
+.laptop-images p {
+    position: relative;   
+    bottom: 30px;
+}
+/*Smart Watches Section*/
+.smart-watches {
+ flex-wrap: wrap;
+}
+.watches {
+    width: 350px;
+    height: 27vh;
+    background-size: cover;
+    margin: 10px auto;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+.watches img {
+    width: 150px;
+    height: 25vh;
+}
+.watches p {
+    float: right;
+    /* position: relative; */
+    /* top: 50px; */
+    /* right: 80px; */
+}
+}
