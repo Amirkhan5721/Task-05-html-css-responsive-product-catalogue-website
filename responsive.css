@@ -1,5 +1,5 @@
 @media (max-width:1050px){
-        /*navbar-links styled*/
+/*navbar-links styled*/
 .navbar-links {
     width: 40%;
     height: 40vh;
@@ -64,8 +64,25 @@ h2 {
 }
 .watches p {
     float: right;
-    /* position: relative; */
-    /* top: 50px; */
-    /* right: 80px; */
 }
 }
+/*Small Screen */
+@media (max-width:655px) {
+    /*navbar-links styled*/
+.navbar-links {
+    width: 40%;
+    height: 40vh;
+}
+.navbar-links h2 {
+    width: 90%;
+}
+.navbar-links a {
+    margin:auto 23px;
+}
+/*navbar-img styled*/
+.navbar-img img {
+    width: 100%;
+    height: 40vh;
+}
+}
+/*Mobile Screen*/
