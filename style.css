@@ -83,6 +83,12 @@ header {
     margin:auto 43px;
     color: black;
 }
+.navbar-links a:hover {
+    background-color: rgb(74, 57, 57);
+    color: white;
+    padding: auto 12px;
+    border-radius: 5px;
+}
 /*navbar-img styled*/
 .navbar-img {
     width: 75%;
